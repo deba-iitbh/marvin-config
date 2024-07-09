@@ -8,7 +8,7 @@ rm -rf $DIEFDIR
 # TODO uncommented for testing generic failure (skips redownloading)
 # rm -r $MARVINEXTRACTIONDIR/*
 cd marvin-extraction
-git clone "https://github.com/dbpedia/extraction-framework.git" $DIEFDIR &>/dev/null
+git clone -b gsoc_2024 "https://github.com/deba-iitbh/extraction-framework.git" $DIEFDIR &>/dev/null
 cd $DIEFDIR
 
 
